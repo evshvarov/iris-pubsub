@@ -1,4 +1,7 @@
 {
+    "files.associations": {
+        "iris.script": "objectscript"
+      },
     "objectscript.conn": {
         "username": "superuser",
         "password": "SYS",

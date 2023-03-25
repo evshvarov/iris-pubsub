@@ -13,4 +13,7 @@
     set ^Ens.Configuration("csp","LastProduction") = production
     do ##class(Ens.Director).SetAutoStart(production)
 
+    set $namespace = "%SYS"
+    zpm "install passwordless"
+
     halt
